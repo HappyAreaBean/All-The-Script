@@ -1,5 +1,8 @@
+# Visual Studio related files
 /.vs
 /.vscode
+
+# Test environment 
 /databaseFolder
 /dataFolder
 /myscript.sh
