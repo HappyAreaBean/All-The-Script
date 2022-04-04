@@ -1,21 +1,12 @@
-# Xenforo Backup Script
+# All the scripts
 
-A simple yet script to backup your xenforo site!
+Welcome to All the scripts!
 
-## **Features**
-* Backup files name are created with date
-* Prompt for entering mysql info
-* Auto cleanup useless files (e.g. The .sql file after created the archive)
+This is where I put all the useful scripts I create! :)
 
-## **Usage**
-```
-./backup.sh <your xenforo folder> <mysql database name>
-```
-> **For example:**
-```
-./backup.sh forums xenforo
-```
-
+## **Scripts List**
+* [xenforo backup script](/xenforo/)
+* [bookstack backup](/bookstack/)
 ---
 
 If you have any question please let me know! :)
