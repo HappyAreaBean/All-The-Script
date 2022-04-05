@@ -51,7 +51,7 @@ printf "\nDumping database completed.\n\n"
 printf "\nCompressing folder %s's content...\n\n" "$FOLDER"
 
 # Creating a archive with the Folder, and the database file.
-tar -czvf "$BOOKSTACK_FILE" "$FOLDER" "$DATABASE_FILE"
+tar -czvf "$BOOKSTACK_FILE" "$DATABASE_FILE" ".env" "public/uploads" "storage/uploads"
 
 printf "\nCleanup...\n\n"
 
