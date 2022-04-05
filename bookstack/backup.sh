@@ -33,9 +33,9 @@ read -r DATABASE_USER
 echo ""
 
 # Ask for mysql passowrd (read have -s flag)
-DATABASE_PASSWORD=123
-echo -n "Enter your mysql password: "
-read -r -s DATABASE_PASSWORD
+# DATABASE_PASSWORD=123
+# echo -n "Enter your mysql password: "
+# read -r -s DATABASE_PASSWORD
 
 # Assign files name and Mysql Database name
 BOOKSTACK_FILE="bookstack-$DATE.tgz"
@@ -44,7 +44,7 @@ DATABASE_FILE="$DATABASE_NAME.sql"
 printf "\nDumping database: %s ...\n" "$DATABASE_NAME"
 
 # Mysqldump command
-mysqldump -u "$DATABASE_USER" -p "\"$DATABASE_PASSWORD\"" "$DATABASE_NAME" >"$DATABASE_FILE"
+mysqldump -u "$DATABASE_USER" -p "$DATABASE_NAME" >"$DATABASE_FILE"
 
 printf "\nDumping database completed.\n\n"
 
