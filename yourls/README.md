@@ -18,15 +18,12 @@ chmod u+x backup.sh
 
 
 ## **Usage**
-1. You need to run this script in the **root folder** of bookstack installation
-2. [Download the script](#how-to-download-the-script)
-3. Run the script
 ```
-./backup.sh <mysql database name>
+./backup.sh <your yourls folder> <mysql database name>
 ```
 > **For example:**
 ```
-./backup.sh bookstack
+./backup.sh shorturl yourls
 ```
 
 ---
